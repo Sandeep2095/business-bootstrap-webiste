@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&family=Poppins&display=swap');
+
+* {
+	font-family: 'Kanit', sans-serif;
+}
+
+.text-shadow {
+	text-shadow: 12px 12px 12px rgba(0, 0, 255, 1);
+}
+
+.animate-text-right {
+	animation: animateText 1.5s ease;
+}
+
+.animate-text-right-3s {
+	animation: animateText 2s ease;
+}
+
+.animate-text-right-4s {
+	animation: animateText 2.1s ease;
+}
+
+@keyframes animateText {
+	0% {
+		transform: translateX(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
